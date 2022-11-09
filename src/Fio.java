@@ -3,9 +3,12 @@ public class Fio {
         String firstName = "Ivanov ";
         String middleName = "Ivan ";
         String lastName = "Ivanovich";
-        String fullName = firstName+middleName+lastName;
-        System.out.println("ФИО сотрудника — " +fullName);
+        String fullName = firstName + middleName + lastName;
+        System.out.println("ФИО сотрудника — " + fullName);
         fullName = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — "+fullName);
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace('ё', 'e');
+        System.out.println(fullName);
     }
 }
