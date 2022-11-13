@@ -7,7 +7,6 @@ public class Doubling {
         System.out.print("1) ");
         // variant #1
         for (int i = 0; i < doubleChar.length(); i++) {
-
             System.out.print(doubleChar.charAt(i));
             System.out.print(doubleChar.charAt(i));
         }
