@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class First_and_Last {
     public static void main(String[] args) {
-        String a = " ";
-        String b = "chars";
+        Scanner scanner = new Scanner(System.in);
+        String a = scanner.nextLine();
+        String b = scanner.nextLine();
         if (a.isBlank()) {
             a = "@";
         }
@@ -9,6 +12,6 @@ public class First_and_Last {
             b = "@";
         }
         String result = a + b;
-        System.out.println(result.charAt(0) + "" + result.charAt(b.length() - 1));
+        System.out.println(result.charAt(0) + "" + result.charAt(result.length() - 1));
     }
 }
