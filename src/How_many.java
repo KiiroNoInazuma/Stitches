@@ -12,7 +12,7 @@ public class How_many {
         text = text.toUpperCase();
         int check = 0;
 
-        for (int x = 0; x < text.length() - 1; x++) {
+        for (int x = 0; x <= text.length() - countHi.length(); x++) {
             if (countHi.equals(text.substring(x, x + countHi.length()))) {
                 check++;
             }
